@@ -1,0 +1,29 @@
+{
+  "name": "unit-test",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/LostFeniks/unit-test#readme",
+  "bugs": {
+    "url": "https://github.com/LostFeniks/unit-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LostFeniks/unit-test.git"
+  },
+  "license": "ISC",
+  "author": "toni",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "jest": "^30.3.0"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0"
+  }
+}
